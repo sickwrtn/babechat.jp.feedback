@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import Sumbit from './sumbit';
 import FeedbackModal from './modal';
 import { setStrict } from './strict';
-import {IFeedback,IResponse,IFilter,ICategory, IBan} from './interfaces'
+import {IFeedback,IFilter,ICategory, IBan} from './interfaces'
 import { IModalData } from './interfaces';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { AdminAuth, AdminLogin, sillo } from './sdk';
